@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="RegSuite">
+	<test name="Test1">
+		<classes>
+			<class name="TestScripts.ValidLogin" />
+			<class name="TestScripts.InvalidLogin" />
+			<class name="TestScripts.PatientSnapshotNotes" />
+		</classes>
+	</test> <!-- Test1 -->
+</suite> <!-- RegSuite -->
