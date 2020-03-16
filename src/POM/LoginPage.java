@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 public class LoginPage{
-
+	
 	//declare the elements
 	@FindBy(xpath="//input[@placeholder='Email']")
 	private WebElement unTB;
