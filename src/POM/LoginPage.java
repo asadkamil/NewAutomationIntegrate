@@ -13,7 +13,7 @@ public class LoginPage{
 	private WebElement pwdTB;
 	@FindBy(xpath="//button[@ng-click='vm.login()']")
 	private WebElement loginButton;
-
+	
 	//initialize elements
 	public LoginPage (WebDriver driver)
 	{
