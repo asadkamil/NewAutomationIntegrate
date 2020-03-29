@@ -25,6 +25,6 @@ public class InvalidLogin extends BaseTest {
 			driver.navigate().refresh();
 			//Thread.sleep(2000);
 		}
-		Assert.fail();
+		//Assert.fail();
 	}
 }

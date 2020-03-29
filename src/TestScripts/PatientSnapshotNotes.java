@@ -29,10 +29,10 @@ public class PatientSnapshotNotes extends BaseTest {
 		mbrSearch.viewMember();
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//textarea[@ng-model='vmNote.noteModel.NoteContents']")).sendKeys("hello World");
-        driver.findElement(By.xpath("//button[@ng-click='vmNote.createMemberNote(vmNote.noteModel)']")).click();
+		driver.findElement(By.xpath("//button[@ng-click='vmNote.createMemberNote(vmNote.noteModel)']")).click();
 		Thread.sleep(5000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,1000)");
+		js.executeScript("window.scrollBy(0,2000)");
 		System.out.println("The notes has been created successfully");
 	}
 }
