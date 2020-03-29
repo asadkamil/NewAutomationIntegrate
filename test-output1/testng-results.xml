@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[TestBlockRegressionSuite-->>Block started...]]>
+    </line>
+    <line>
+      <![CDATA[testpatientSnapshotNotes--->>testMethod Started....]]>
+    </line>
+    <line>
+      <![CDATA[testpatientSnapshotNotes---->>testMethod Passed....]]>
+    </line>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="45523" started-at="2020-03-29T19:39:10Z" finished-at="2020-03-29T19:39:56Z">
+    <groups>
+    </groups>
+    <test name="TestBlockRegressionSuite" duration-ms="45523" started-at="2020-03-29T19:39:10Z" finished-at="2020-03-29T19:39:56Z">
+      <class name="TestScripts.PatientSnapshotNotes">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestScripts.PatientSnapshotNotes@5700d6b1]" name="setup" is-config="true" duration-ms="21432" started-at="2020-03-30T01:09:10Z" finished-at="2020-03-30T01:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testpatientSnapshotNotes()[pri:0, instance:TestScripts.PatientSnapshotNotes@5700d6b1]" name="testpatientSnapshotNotes" duration-ms="23309" started-at="2020-03-30T01:09:31Z" finished-at="2020-03-30T01:09:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testpatientSnapshotNotes---->>testMethod Passed....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testpatientSnapshotNotes -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScripts.PatientSnapshotNotes@5700d6b1]" name="tearDown" is-config="true" duration-ms="745" started-at="2020-03-30T01:09:55Z" finished-at="2020-03-30T01:09:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testpatientSnapshotNotes status=SUCCESS method=PatientSnapshotNotes.testpatientSnapshotNotes()[pri:0, instance:TestScripts.PatientSnapshotNotes@5700d6b1] output=testpatientSnapshotNotes---->>testMethod Passed....]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScripts.PatientSnapshotNotes -->
+    </test> <!-- TestBlockRegressionSuite -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
